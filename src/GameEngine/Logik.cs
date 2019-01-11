@@ -34,7 +34,7 @@ namespace GameEngine
 
     public class Rules
     {
-
+         
     }
 
     public class Board
@@ -46,13 +46,18 @@ namespace GameEngine
             Console.WriteLine("            [ ][ ][ ]");
             Console.WriteLine("            [ ][ ][ ]");
             Console.WriteLine("[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
-            Console.WriteLine("[ ][ ][ ][ ][ ]   [ ][ ][ ][ ][ ]");
+            Console.WriteLine("[ ][ ][ ][ ][ ] # [ ][ ][ ][ ][ ]");
             Console.WriteLine("[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
             Console.WriteLine("            [ ][ ][ ]");
             Console.WriteLine("            [ ][ ][ ]");
             Console.WriteLine("            [ ][ ][ ]");
             Console.WriteLine("            [ ][ ][ ]");
         }
+
+
+
+
+
     }
 
 
