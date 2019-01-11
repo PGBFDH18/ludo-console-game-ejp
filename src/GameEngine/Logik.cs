@@ -31,11 +31,5 @@ namespace GameEngine
 
     }
 
-    public class Fia
-    {
-        static void Main(string[] args)
-        {
 
-        }
-    }
 }
