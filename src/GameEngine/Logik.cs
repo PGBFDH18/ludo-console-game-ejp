@@ -23,12 +23,36 @@ namespace GameEngine
 
     public class Dice
     {
+        public int rollDice()
+        {
+            Random num = new Random();
+            int Number = num.Next(1, 7);
 
+            return Number;
+        }
     }
 
     public class Rules
     {
 
+    }
+
+    public class Board
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("            [ ][ ][ ]");
+            Console.WriteLine("            [ ][ ][ ]");
+            Console.WriteLine("            [ ][ ][ ]");
+            Console.WriteLine("            [ ][ ][ ]");
+            Console.WriteLine("[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
+            Console.WriteLine("[ ][ ][ ][ ][ ]   [ ][ ][ ][ ][ ]");
+            Console.WriteLine("[ ][ ][ ][ ][ ][ ][ ][ ][ ][ ][ ]");
+            Console.WriteLine("            [ ][ ][ ]");
+            Console.WriteLine("            [ ][ ][ ]");
+            Console.WriteLine("            [ ][ ][ ]");
+            Console.WriteLine("            [ ][ ][ ]");
+        }
     }
 
 
